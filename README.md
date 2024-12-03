@@ -12,10 +12,8 @@ This project implements an automated image classification system using deep lear
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dataset](#dataset)
-- [Model Training](#model-training)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -38,7 +36,7 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
 2. Navigate to the project directory:
-3. Create a virtual environment (optional but recommended):
+3. Create a virtual environment 
 4. Install the required dependencies:
    
 ## Usage
@@ -52,27 +50,20 @@ To get started with the project, follow these steps:
 
 Describe the dataset used for training your model. Include details such as:
 
-- Source of the dataset (e.g., Kaggle, Ciphar-10, Mobilenet ).
+- Source of the dataset ( Ciphar-10, Mobilenet ).
 - Number of classes and examples per class.
 - Preprocessing steps applied to the dataset.
 
-## Model Training
 
-Provide details on how the model is trained:
-
-- Hyperparameters used (e.g., learning rate, batch size, number of epochs).
-- Model architecture (e.g., CNN layers, activation functions).
-- Any data augmentation techniques employed.
 
 ## Deployment
 
-If applicable, describe how to deploy the model:
-
-1. Instructions for setting up a web server (e.g., using Flask).
-2. Steps to run the application locally or on a cloud platform.
-
+How to deploy the model:
+1. Open the Anaconda promt and switch to your respective virtual environment.
+2. Locate the app file using the cd command.
+3. Now type streamlit run app.py and run it.
+    
 ## Contributing
-
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
 1. Fork the repository.
